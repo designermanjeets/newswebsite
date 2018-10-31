@@ -4,7 +4,8 @@
 /* Custom */
 .navbar-nav > li > .dropdown-menu .media-list { overflow: visible; }
 .header-ads { margin-top: -45px; }
-.page-title .logo { margin-top: -10px; margin-left: 65px; }
+.page-title { padding: 20px 36px 10px 0; }
+.page-title .logo { margin-top: -10px; margin-left: 65px; max-width: 190px; }
 .category-title:not(.h5):not(.h6) > span { font-size: 15px; font-weight: bold; }
 .thumbnail .caption { padding: 4px; }
 .sidebar .nav-tabs.nav-tabs-solid > .active > a, .sidebar .nav-tabs.nav-tabs-solid > .active > a:hover, .sidebar .nav-tabs.nav-tabs-solid > .active > a:focus { background-color: #2196F3; border-color: #2196F3; color: #fff; }
@@ -14,6 +15,7 @@
 .noabsolute { position: relative; display: inline-block; margin: 0; height: auto; top: -3px; right: 0; text-align: right; }
 .noabsolute .icons-list { margin: 0; }
 .timestamp, .timestamp > li { font-size: 10px; color: #999; }
+.tazanewslist li { padding: 5px 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .media-center .media { border-bottom: 1px dashed #ccc; height: 100px; }
 .media-center .media:nth-last-child(1) { border-bottom: none; }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 100%; }
@@ -43,8 +45,10 @@
 .foo .social a { color: #b91e0a; margin: 0 3px; } 
 
 
-
-
+/* Side Ads */
+.sidebarads { position: fixed; top: 46px; width: 100%; }
+.leftads { margin-left: -115px; position: absolute; left: 0; top: 0; }
+.rightads { position: absolute; right: 0; top: 0; margin-right: -115px; }
 
 
 /* Common */
