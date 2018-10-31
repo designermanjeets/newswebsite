@@ -1,0 +1,2229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>: NEWS :</title>
+
+	<!-- Global stylesheets -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css"> -->
+	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/core.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/news.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/nicescroll.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/drilldown.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>
+
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+	<script type="text/javascript" src="assets/js/pages/dashboard_boxed.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body class="layout-boxed">
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-inverse hidden-xs">
+		<div class="navbar-boxed">
+			<div class="navbar-header">
+
+				<ul class="nav navbar-nav visible-xs-block">
+					<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+					<li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="navbar-collapse collapse" id="navbar-mobile">
+				<ul class="nav navbar-nav">
+
+					<li>
+						<button type="button" class="btn btn-danger btn-labeled btn-xlg"><b><i class="icon-pin-alt"></i></b>टॉप न्यूज़</button>
+					</li>
+					<li>
+						<blockquote class="ml-15">
+							<i class="icon-arrow-right15"></i> हर बार अपने मन की सुनाने की बजाए कभी जनता के मन की भी सुने भाजपाई – राजेंद्र 
+						</blockquote>
+					</li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown language-switch">
+						<a class="dropdown-toggle" data-toggle="dropdown">
+							<img src="assets/images/flags/gb.png" class="position-left" alt="">
+							मराठी
+							<span class="caret"></span>
+						</a>
+
+						<ul class="dropdown-menu">
+							<li><a>ગુજરાતી</a></li>
+							<li><a>ಕನ್ನಡ</a></li>
+							<li><a>മലയാളം</a></li>
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="icon-bubbles4"></i>
+							<span class="visible-xs-inline-block position-right">Messages</span>
+							<span class="badge bg-warning-400">2</span>
+						</a>
+						
+						<div class="dropdown-menu dropdown-content width-350">
+							<ul class="media-list dropdown-content-body">
+								<li class="media">
+									<div class="media-left">
+										<img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+										<span class="badge bg-danger-400 media-badge">5</span>
+									</div>
+
+									<div class="media-body">
+										<a href="#" class="media-heading">
+											<span class="text-semibold">James Alexander</span>
+											<span class="media-annotation pull-right">04:58</span>
+										</a>
+
+										<span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="media-left">
+										<img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+										<span class="badge bg-danger-400 media-badge">4</span>
+									</div>
+
+									<div class="media-body">
+										<a href="#" class="media-heading">
+											<span class="text-semibold">Margo Baker</span>
+											<span class="media-annotation pull-right">12:16</span>
+										</a>
+
+										<span class="text-muted">That was something he was unable to do because...</span>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+									<div class="media-body">
+										<a href="#" class="media-heading">
+											<span class="text-semibold">Jeremy Victorino</span>
+											<span class="media-annotation pull-right">22:48</span>
+										</a>
+
+										<span class="text-muted">But that would be extremely strained and suspicious...</span>
+									</div>
+								</li>
+							</ul>
+
+							<div class="dropdown-content-footer">
+								<a href="#" data-popup="tooltip" title="All messages"><i class="icon-menu display-block"></i></a>
+							</div>
+						</div>
+					</li>
+
+					<li class="dropdown dropdown-user">
+						<a class="dropdown-toggle" data-toggle="dropdown">
+							<img src="assets/images/placeholder.jpg" alt="">
+							<span>Manjeet</span>
+							<i class="caret"></i>
+						</a>
+
+						<ul class="dropdown-menu dropdown-menu-right">
+							<li><a href="#"><i class="icon-user-plus"></i> My profile</a></li>
+							<li><a href="#"><i class="icon-coins"></i> My balance</a></li>
+							<li><a href="#"><span class="badge bg-teal-400 pull-right">58</span> <i class="icon-comment-discussion"></i> Messages</a></li>
+							<li class="divider"></li>
+							<li><a href="#"><i class="icon-cog5"></i> Account settings</a></li>
+							<li><a href="#"><i class="icon-switch2"></i> Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- /main navbar -->
+
+
+	<!-- Second navbar -->
+	<div class="navbar navbar-default" id="navbar-second">
+		<div class="navbar-boxed">
+			<ul class="nav navbar-nav no-border visible-xs-block">
+				<li><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-second-toggle"><i class="icon-menu7"></i></a></li>
+			</ul>
+
+			<div class="navbar-collapse collapse" id="navbar-second-toggle">
+				<ul class="nav navbar-nav"> 
+					<li class="dropdown mega-menu mega-menu-wide active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							राज्य 
+							<span class="caret"></span>
+						</a>
+
+						<div class="dropdown-menu dropdown-content">
+							<div class="dropdown-content-body">
+								<div class="row">
+									<div class="col-md-2">
+										<span class="menu-heading underlined">Submenu First</span>
+										<ul class="menu-list">
+											<li><a href="#">Sub-Submenu 1</a></li>
+											<li><a href="#">Submenu 2</a></li>
+											<li><a href="#">Sub 3</a></li>
+											<li><a href="#">Submenu 4</a></li>
+											<li><a href="#">Sub-Submenu 5</a></li>
+										</ul>
+									</div>
+									<div class="col-md-2">
+										<span class="menu-heading underlined">Submenu Second</span>
+										<ul class="menu-list">
+											<li><a href="#">Sub-Submenu 1</a></li>
+											<li><a href="#">Submenu 2</a></li>
+											<li><a href="#">Sub Submenu 3</a></li>
+											<li><a href="#">Submenu 4</a></li>
+											<li><a href="#">Sub-Submenu 5</a></li>
+										</ul>
+									</div>
+									<div class="col-md-2">
+										<span class="menu-heading underlined">Submenu Third</span>
+										<ul class="menu-list">
+											<li><a href="#">Sub-Submenu 1</a></li>
+											<li><a href="#">Submenu 2</a></li>
+											<li><a href="#">Sub Submenu 3</a></li>
+											<li><a href="#">Submenu 4</a></li>
+											<li><a href="#">Sub-Submenu 5</a></li>
+										</ul>
+									</div>
+									<div class="col-md-2">
+										<span class="menu-heading underlined">Submenu 4</span>
+										<ul class="menu-list">
+											<li><a href="#">Sub-Submenu 1</a></li>
+											<li><a href="#">Submenu 2</a></li>
+											<li><a href="#">Submenu 3</a></li>
+											<li><a href="#">Submenu 4</a></li>
+											<li><a href="#">Sub-Submenu 5</a></li>
+										</ul>
+									</div>
+									<div class="col-md-2">
+										<span class="menu-heading underlined">Submenu Fifth</span>
+										<ul class="menu-list">
+											<li><a href="#">Sub-Submenu 1</a></li>
+											<li><a href="#">Sub 2</a></li>
+											<li><a href="#">Submenu 3</a></li>
+											<li><a href="#">Submenu 4 <span class="badge badge-info">14</span></a></li>
+											<li><a href="#">Sub-Submenu 5</a></li>
+										</ul>
+									</div>
+									<div class="col-md-2">
+										<span class="menu-heading underlined">Submenu 6</span>
+										<ul class="menu-list">
+											<li><a href="#">Sub 1 <span class="label label-primary">HOT</span></a></li>
+											<li><a href="#">Submenu 2</a></li>
+											<li><a href="#">Sub 3</a></li>
+											<li><a href="#">Submenu 4 <span class="label label-success">New</span></a></li>
+											<li><a href="#">Sub-Submenu 5</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+					<li class="dropdown mega-menu mega-menu-wide">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							विडियो 
+							<span class="caret"></span>
+						</a>
+
+						<div class="dropdown-menu dropdown-content">
+							<div class="dropdown-content-body">
+								
+								<!-- Latest posts -->
+								<div class="panel panel-flat">
+									<div class="panel-heading">
+										<h6 class="panel-title">Latest Videos</h6>
+										<div class="heading-elements">
+											<ul class="icons-list">
+												<li><a data-action="collapse"></a></li>
+												<li><a data-action="reload"></a></li>
+												<li><a data-action="close"></a></li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-lg-6">
+												<ul class="media-list content-group">
+													<li class="media stack-media-on-mobile">
+														<div class="media-left">
+															<div class="thumb">
+																<a href="#">
+																	<img src="assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
+																	<span class="zoom-image"><i class="icon-play3"></i></span>
+																</a>
+															</div>
+														</div>
+
+														<div class="media-body">
+															<h6 class="media-heading"><a href="#">Up unpacked friendly</a></h6>
+															<ul class="list-inline list-inline-separate text-muted mb-5">
+																<li><i class="icon-book-play position-left"></i> Video tutorials</li>
+																<li>14 minutes ago</li>
+															</ul>
+															The him father parish looked has sooner. Attachment frequently gay terminated son...
+														</div>
+													</li>
+
+													<li class="media stack-media-on-mobile">
+														<div class="media-left">
+															<div class="thumb">
+																<a href="#">
+																	<img src="assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
+																	<span class="zoom-image"><i class="icon-play3"></i></span>
+																</a>
+															</div>
+														</div>
+
+														<div class="media-body">
+															<h6 class="media-heading"><a href="#">It allowance prevailed</a></h6>
+															<ul class="list-inline list-inline-separate text-muted mb-5">
+																<li><i class="icon-book-play position-left"></i> Video tutorials</li>
+																<li>12 days ago</li>
+															</ul>
+															Alteration literature to or an sympathize mr imprudence. Of is ferrars subject as enjoyed...
+														</div>
+													</li>
+												</ul>
+											</div>
+
+											<div class="col-lg-6">
+												<ul class="media-list content-group">
+													<li class="media stack-media-on-mobile">
+														<div class="media-left">
+															<div class="thumb">
+																<a href="#">
+																	<img src="assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
+																	<span class="zoom-image"><i class="icon-play3"></i></span>
+																</a>
+															</div>
+														</div>
+
+														<div class="media-body">
+															<h6 class="media-heading"><a href="#">Case read they must</a></h6>
+															<ul class="list-inline list-inline-separate text-muted mb-5">
+																<li><i class="icon-book-play position-left"></i> Video tutorials</li>
+																<li>20 hours ago</li>
+															</ul>
+															On it differed repeated wandered required in. Then girl neat why yet knew rose spot...
+														</div>
+													</li>
+
+													<li class="media stack-media-on-mobile">
+														<div class="media-left">
+															<div class="thumb">
+																<a href="#">
+																	<img src="assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
+																	<span class="zoom-image"><i class="icon-play3"></i></span>
+																</a>
+															</div>
+														</div>
+
+														<div class="media-body">
+															<h6 class="media-heading"><a href="#">Too carriage attended</a></h6>
+															<ul class="list-inline list-inline-separate text-muted mb-5">
+																<li><i class="icon-book-play position-left"></i> FAQ section</li>
+																<li>2 days ago</li>
+															</ul>
+															Marianne or husbands if at stronger ye. Considered is as middletons uncommonly...
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /latest posts -->
+							</div>
+						</div>
+					</li> 
+
+					<li class="dropdown mega-menu mega-menu-wide">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							भारत 
+							<span class="caret"></span>
+						</a>
+
+						<div class="dropdown-menu dropdown-content">
+							<div class="dropdown-content-body">
+								
+
+								<!-- Latest added -->
+								<h4 class="text-center content-group">
+									Latest articles &amp; videos
+									<small class="display-block">Dear bawled since some the contrary much hyena jeez clear fox despite the concomitant</small>
+								</h4>
+				
+								<div class="row">
+									<div class="col-md-4">
+										<div class="panel panel-body">
+											<div class="media">
+												<div class="media-left">
+													<a href="#"><i class="icon-file-text2 text-success-400 icon-2x no-edge-top mt-5"></i></a>
+												</div>
+				
+												<div class="media-body">
+													<h6 class="media-heading text-semibold"><a href="#" class="text-default">Walking away fallaciously</a></h6>
+													Ouch licentiously lackadaisical crud together began gregarious below near darn goodness
+												</div>
+											</div>
+										</div>
+									</div>
+				
+									<div class="col-md-4">
+										<div class="panel panel-body">
+											<div class="media">
+												<div class="media-left">
+													<a href="#"><i class="icon-file-play text-warning-400 icon-2x no-edge-top mt-5"></i></a>
+												</div>
+				
+												<div class="media-body">
+													<h6 class="media-heading text-semibold"><a href="#" class="text-default">Nutria and rewound</a></h6>
+													Strove the darn hey as far oh alas and yikes and gosh knitted this slept via gerbil
+												</div>
+											</div>
+										</div>
+									</div>
+				
+									<div class="col-md-4">
+										<div class="panel panel-body">
+											<div class="media">
+												<div class="media-left">
+													<a href="#"><i class="icon-file-xml text-info icon-2x no-edge-top mt-5"></i></a>
+												</div>
+				
+												<div class="media-body">
+													<h6 class="media-heading text-semibold"><a href="#" class="text-default">Bound befell well</a></h6>
+													And since left before understandably much groomed along 
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+				
+								<div class="row">
+									<div class="col-md-4">
+										<div class="panel panel-body">
+											<div class="media">
+												<div class="media-left">
+													<a href="#"><i class="icon-file-text2 text-success-400 icon-2x no-edge-top mt-5"></i></a>
+												</div>
+				
+												<div class="media-body">
+													<h6 class="media-heading text-semibold"><a href="#" class="text-default">Porcupine strict nodded</a></h6>
+													Left extravagant leered crab repaid outgrew said  
+												</div>
+											</div>
+										</div>
+									</div>
+				
+									<div class="col-md-4">
+										<div class="panel panel-body">
+											<div class="media">
+												<div class="media-left">
+													<a href="#"><i class="icon-file-play text-warning-400 icon-2x no-edge-top mt-5"></i></a>
+												</div>
+				
+												<div class="media-body">
+													<h6 class="media-heading text-semibold"><a href="#" class="text-default">Ducked ravenously dear</a></h6>
+													Reran sincere said monkey one slapped jeepers rubbed
+												</div>
+											</div>
+										</div>
+									</div>
+				
+									<div class="col-md-4">
+										<div class="panel panel-body">
+											<div class="media">
+												<div class="media-left">
+													<a href="#"><i class="icon-file-xml text-info icon-2x no-edge-top mt-5"></i></a>
+												</div>
+				
+												<div class="media-body">
+													<h6 class="media-heading text-semibold"><a href="#" class="text-default">Contemptibly bleakly</a></h6>
+													Speechless far goodness bent as boa crud because vague far koala
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> 
+								<!-- /latest added -->
+							</div>
+						</div>
+					</li>
+
+					<li class="dropdown mega-menu mega-menu-wide">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							बिज़नस ET  
+							<span class="caret"></span>
+						</a>
+
+						<div class="dropdown-menu dropdown-content">
+							<div class="dropdown-content-body">
+								<!-- Directory -->
+				
+								<div class="row">
+									<div class="">
+										<div class="panel panel-flat no-border">
+											<div class="panel-heading">
+												<div class="heading-elements">
+													<ul class="icons-list">
+														<li><a data-action="collapse"></a></li>
+														<li><a data-action="reload"></a></li>
+														<li><a data-action="close"></a></li>
+													</ul>
+												</div>
+											</div>
+				
+											<div class="panel-body">
+												<div class="row">
+													<div class="col-md-4">
+														<div class="content-group">
+															<h6 class="text-semibold heading-divided"><i class="icon-folder6 position-left"></i> Getting started <small class="position-right">(93)</small></h6>
+															<div class="list-group list-group-borderless">
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> And hello exotic staunch <span class="label label-primary">Popular</span>
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> That and well ecstatically
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Sheared coasted so concurrent
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Into darn intrepid belated
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-arrow-right22"></i> Show all articles (93)
+																</a>
+															</div>
+														</div>
+													</div>
+				
+													<div class="col-md-4">
+														<div class="content-group">
+															<h6 class="text-semibold heading-divided"><i class="icon-folder6 position-left"></i> Becoming an author <small class="position-right">(56)</small></h6>
+															<div class="list-group list-group-borderless">
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Jeepers therefore one
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Near and ladybug forewent <span class="label label-success">Review</span>
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Well much strove when stuck
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Lorikeet much fantastic less
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-arrow-right22"></i> Show all articles (56)
+																</a>
+															</div>
+														</div>
+													</div>
+				
+													<div class="col-md-4">
+														<div class="content-group">
+															<h6 class="text-semibold heading-divided"><i class="icon-folder6 position-left"></i> General info for all authors <small class="position-right">(29)</small></h6>
+															<div class="list-group list-group-borderless">
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Lackadaisical dear crude <span class="label label-danger">Closed</span>
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Effortless one powerlessly
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Some less hey and less <span class="label bg-indigo-300">Article</span>
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-file-text2"></i> Jeepers pill nonsensically
+																</a>
+				
+																<a href="#" class="list-group-item">
+																	<i class="icon-arrow-right22"></i> Show all articles (29)
+																</a>
+															</div>
+														</div>
+													</div>
+												</div> 
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /directory -->
+							</div>
+						</div>
+					</li>
+
+					<li class="dropdown mega-menu mega-menu-wide">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							मूवी 
+							<span class="caret"></span>
+						</a>
+
+						<div class="dropdown-menu dropdown-content">
+							<div class="dropdown-content-body">
+								
+
+
+							<!-- Tabs -->
+		                	<ul class="nav nav-lg nav-tabs nav-justified no-margin no-border-radius bg-indigo-400 border-top border-top-indigo-300">
+								<li class="active">
+									<a href="#messages-tue" class="text-size-small text-uppercase" data-toggle="tab">
+										Tuesday
+									</a>
+								</li>
+
+								<li>
+									<a href="#messages-mon" class="text-size-small text-uppercase" data-toggle="tab">
+										Monday
+									</a>
+								</li>
+
+								<li>
+									<a href="#messages-fri" class="text-size-small text-uppercase" data-toggle="tab">
+										Friday
+									</a>
+								</li>
+							</ul>
+							<!-- /tabs -->
+
+
+							<!-- Tabs content -->
+							<div class="tab-content">
+								<div class="tab-pane active fade in has-padding" id="messages-tue">
+									<div class="row">
+										<div class="col-md-6">
+
+											<ul class="media-list">
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">8</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															James Alexander
+															<span class="media-annotation pull-right">14:58</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">6</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Margo Baker
+															<span class="media-annotation pull-right">12:16</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Jeremy Victorino
+															<span class="media-annotation pull-right">09:48</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+										<div class="col-md-6">
+
+											<ul class="media-list">
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">8</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															James Alexander
+															<span class="media-annotation pull-right">14:58</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">6</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Margo Baker
+															<span class="media-annotation pull-right">12:16</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Jeremy Victorino
+															<span class="media-annotation pull-right">09:48</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade has-padding" id="messages-mon">
+									
+									<div class="row">
+										<div class="col-md-6">
+
+											<ul class="media-list">
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">8</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															James Alexander
+															<span class="media-annotation pull-right">14:58</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">6</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Margo Baker
+															<span class="media-annotation pull-right">12:16</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Jeremy Victorino
+															<span class="media-annotation pull-right">09:48</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+										<div class="col-md-6">
+
+											<ul class="media-list">
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">8</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															James Alexander
+															<span class="media-annotation pull-right">14:58</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">6</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Margo Baker
+															<span class="media-annotation pull-right">12:16</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Jeremy Victorino
+															<span class="media-annotation pull-right">09:48</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade has-padding" id="messages-fri">
+									
+									<div class="row">
+										<div class="col-md-6">
+
+											<ul class="media-list">
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">8</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															James Alexander
+															<span class="media-annotation pull-right">14:58</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">6</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Margo Baker
+															<span class="media-annotation pull-right">12:16</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Jeremy Victorino
+															<span class="media-annotation pull-right">09:48</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+										<div class="col-md-6">
+
+											<ul class="media-list">
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">8</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															James Alexander
+															<span class="media-annotation pull-right">14:58</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+														<span class="badge bg-danger-400 media-badge">6</span>
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Margo Baker
+															<span class="media-annotation pull-right">12:16</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+		
+												<li class="media">
+													<div class="media-left">
+														<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													</div>
+		
+													<div class="media-body">
+														<a href="#">
+															Jeremy Victorino
+															<span class="media-annotation pull-right">09:48</span>
+														</a>
+		
+														<span class="display-block text-muted">The constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously constitutionally inventoried precariously</span>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /tabs content -->
+							</div>
+						</div>
+					</li> 
+
+					<li class="dropdown mega-menu mega-menu-wide">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							लाइफस्टाइल 
+							<span class="caret"></span>
+						</a>
+
+						<div class="dropdown-menu dropdown-content">
+							<div class="dropdown-content-body">
+								<div class="row">
+									<div class="col-md-4">
+
+										<div class="category-content">
+												<ul class="media-list">
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-pull-request"></i></a>
+														</div>
+					
+														<div class="media-body">
+															Drop the IE <a href="#">specific hacks</a> for temporal inputs
+															<div class="media-annotation">4 minutes ago</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-warning text-warning btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-commit"></i></a>
+														</div>
+														
+														<div class="media-body">
+															Add full font overrides for popovers and tooltips
+															<div class="media-annotation">36 minutes ago</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-info text-info btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-branch"></i></a>
+														</div>
+														
+														<div class="media-body">
+															<a href="#">Chris Arney</a> created a new <span class="text-semibold">Design</span> branch
+															<div class="media-annotation">2 hours ago</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-success text-success btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-merge"></i></a>
+														</div>
+														
+														<div class="media-body">
+															<a href="#">Eugene Kopyov</a> merged <span class="text-semibold">Master</span> and <span class="text-semibold">Dev</span> branches
+															<div class="media-annotation">Dec 18, 18:36</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-pull-request"></i></a>
+														</div>
+														
+														<div class="media-body">
+															Have Carousel ignore keyboard events
+															<div class="media-annotation">Dec 12, 05:46</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+									</div>
+									<div class="col-md-4">
+
+										<div class="category-content">
+												<ul class="media-list">
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-pull-request"></i></a>
+														</div>
+					
+														<div class="media-body">
+															Drop the IE <a href="#">specific hacks</a> for temporal inputs
+															<div class="media-annotation">4 minutes ago</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-warning text-warning btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-commit"></i></a>
+														</div>
+														
+														<div class="media-body">
+															Add full font overrides for popovers and tooltips
+															<div class="media-annotation">36 minutes ago</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-info text-info btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-branch"></i></a>
+														</div>
+														
+														<div class="media-body">
+															<a href="#">Chris Arney</a> created a new <span class="text-semibold">Design</span> branch
+															<div class="media-annotation">2 hours ago</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-success text-success btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-merge"></i></a>
+														</div>
+														
+														<div class="media-body">
+															<a href="#">Eugene Kopyov</a> merged <span class="text-semibold">Master</span> and <span class="text-semibold">Dev</span> branches
+															<div class="media-annotation">Dec 18, 18:36</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-pull-request"></i></a>
+														</div>
+														
+														<div class="media-body">
+															Have Carousel ignore keyboard events
+															<div class="media-annotation">Dec 12, 05:46</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+									</div>
+									<div class="col-md-4">
+
+										<div class="category-content">
+												<ul class="media-list">
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-pull-request"></i></a>
+														</div>
+					
+														<div class="media-body">
+															Drop the IE <a href="#">specific hacks</a> for temporal inputs
+															<div class="media-annotation">4 minutes ago</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-warning text-warning btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-commit"></i></a>
+														</div>
+														
+														<div class="media-body">
+															Add full font overrides for popovers and tooltips
+															<div class="media-annotation">36 minutes ago</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-info text-info btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-branch"></i></a>
+														</div>
+														
+														<div class="media-body">
+															<a href="#">Chris Arney</a> created a new <span class="text-semibold">Design</span> branch
+															<div class="media-annotation">2 hours ago</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-success text-success btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-merge"></i></a>
+														</div>
+														
+														<div class="media-body">
+															<a href="#">Eugene Kopyov</a> merged <span class="text-semibold">Master</span> and <span class="text-semibold">Dev</span> branches
+															<div class="media-annotation">Dec 18, 18:36</div>
+														</div>
+													</li>
+					
+													<li class="media">
+														<div class="media-left">
+															<a href="#" class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i class="icon-git-pull-request"></i></a>
+														</div>
+														
+														<div class="media-body">
+															Have Carousel ignore keyboard events
+															<div class="media-annotation">Dec 12, 05:46</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li> 
+
+					<li class="dropdown mega-menu mega-menu-wide">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							राशिफल 
+							<span class="caret"></span>
+						</a>
+					</li> 
+
+					<li class="dropdown mega-menu mega-menu-wide">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							एजुकेशन 
+							<span class="caret"></span>
+						</a>
+					</li> 
+
+					<li class="dropdown mega-menu mega-menu-wide">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							जोक्स  
+							<span class="caret"></span>
+						</a>
+					</li> 
+
+					<li class="dropdown mega-menu mega-menu-wide">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							धर्म और ज्ञान  
+							<span class="caret"></span>
+						</a>
+					</li> 
+
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<form action="#" class="mt-5">
+							<div class="has-feedback">
+								<input type="search" class="form-control" placeholder="सर्च यहाँ करे">
+								<div class="form-control-feedback">
+									<i class="icon-search4 text-size-base text-muted"></i>
+								</div>
+							</div>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- /second navbar -->
+
+
+	<!-- Page header -->
+	<div class="page-header">
+		<div class="page-header-content">
+			<div class="page-title">
+				<h4 class="logo">
+					<img src="./assets/images/news/logo.png" alt="">
+				</h4>
+			</div>
+
+			<div class="heading-elements header-ads">
+				<a href="#"><img src="../assets/images/news/header_ad.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+	<!-- /page header -->
+
+
+	<!-- Page container -->
+	<div class="page-container">
+
+		<!-- Page content -->
+		<div class="page-content">
+			<!-- Main sidebar -->
+			<div class="sidebar sidebar-main sidebar-default">
+				<div class="sidebar-content">
+ 
+					<!-- Search task -->
+					<div class="sidebar-category">
+						<div class="category-content">
+							<div class="thumbnail">
+								<div class="video-container">
+									<img class="img-fluid" style="width:100%" src="../assets/images/news/image_army.png" alt="">
+								</div>
+	
+								<div class="caption">
+									<h6 class="text-semibold"><a href="#" class="text-default"><b>आर्मी चीफ की पाक को वॉर्निंग, सुधरो वरना दूसरे भी रास्ते हैं</b></a></h6>
+									आर्मी चीफ जनरल बिपिन रावत ने आतंकवाद पर ​पाकिस्तान को स्पष्ट शब्दों में चेतावनी दी है। ​शन...
+								</div>
+							</div>
+
+							<div class="row">
+									<div class="col-xs-4">
+										<div class="thumbnail">
+											<div class="video-container">
+												<iframe allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/126580704?title=0&amp;byline=0&amp;portrait=0" webkitallowfullscreen=""></iframe>
+											</div>
+				
+											<div class="caption">
+												<small>'जो देश में जन्मा वह हिंदू है, 2019 से पहले बनेगा ...</small>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="thumbnail">
+											<div class="video-container">
+												<iframe allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/126945693?title=0&amp;byline=0&amp;portrait=0" webkitallowfullscreen=""></iframe>
+											</div>
+				
+											<div class="caption">
+												<small>'जो देश में जन्मा वह हिंदू है, 2019 से पहले बनेगा ...</small>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="thumbnail">
+											<div class="video-container">
+												<iframe allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/126580704?title=0&amp;byline=0&amp;portrait=0" webkitallowfullscreen=""></iframe>
+											</div>
+				
+											<div class="caption">
+												<small>'जो देश में जन्मा वह हिंदू है, 2019 से पहले बनेगा ...</small>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+					<!-- /search task -->
+					
+
+
+					<!-- Task navigation -->
+					<div class="sidebar-category sidebar-category-visible">
+						<div class="category-title">
+							<span>मूवी-मस्ती</span>
+						</div>
+
+						<div class="category-content no-padding">
+							<ul class="navigation navigation-main navigation-accordion font15 ulnopadd">
+								<li><a href="#"><i class="icon-arrow-right5"></i><span>MeToo: ऐक्टर इमरान हाशमी पर बढ़ रहा दबाव</span></a></li>
+								<li><a href="#"><i class="icon-arrow-right5"></i><span>'इतिहास मनमोहन सिंह को गलत नहीं समझेगा'</span></a></li>
+								<li><a href="#"><i class="icon-arrow-right5"></i><span>रिऐलिटी शो में साथ आ सकते हैं निक और प्रियंका</span></a></li>
+								<li><a href="#"><i class="icon-arrow-right5"></i><span>पहचानिए किस ऐक्ट्रेस का है यह मेहंदी लगा हाथ</span></a></li>
+								<li><a href="#"><i class="icon-arrow-right5"></i><span>जल्द शादी कर सकते हैं मलाइका और अर्जुन!</span></a></li>
+								<li><a href="#"><i class="icon-arrow-right5"></i><span>'बधाई हो' ने मचा दिया बॉक्स ऑफिस पर धमाल</span></a></li>
+								<li><a href="#"><i class="icon-arrow-right5"></i><span>6 घंटे में रिकॉर्ड किया गया विंता नंदा का स्टेटमेंट</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- /task navigation -->
+
+
+					<!-- Sports -->
+					<div class="sidebar-category">
+						<div class="category-title">
+							<span>खेल</span>
+						</div>
+
+						<div class="category-content">
+							<ul class="media-list font17">
+								<li class="media">
+									<a href="#" class="media-left">
+										<img class="img-xlg img-square" src="https://static.langimg.com/thumb/msid-66389302,width-96,height-71/-vs-.jpg?imgsize=63804">
+									</a>
+									<div class="media-body">
+										<div class="heading-elements noabsolute">
+											<ul class="icons-list timestamp">
+												<li><i class="icon-watch2"></i></li>
+												<li>28 अक्टूबर 2018</li>
+											</ul>
+										</div>
+										<a href="#" class="media-heading text-semibold mt10-">भारत vs वेस्ट इंडीज: तीसरा वनडे @पुणे, लाइव अपडेट्स</a>
+									</div>
+								</li>
+								<li class="media">
+									<a href="#" class="media-left">
+										<img class="img-xlg img-square" src="https://static.langimg.com/thumb/msid-66389302,width-96,height-71/-vs-.jpg?imgsize=63804">
+									</a>
+									<div class="media-body">
+										<div class="heading-elements noabsolute">
+											<ul class="icons-list timestamp">
+												<li><i class="icon-watch2"></i></li>
+												<li>28 अक्टूबर 2018</li>
+											</ul>
+										</div>
+										<a href="#" class="media-heading text-semibold mt10-">LIVE: विंडीज ने भारत को दिया 284 रन का लक्ष्य</a>
+									</div>
+								</li>
+								<li class="media">
+									<a href="#" class="media-left">
+										<img class="img-xlg img-square" src="https://static.langimg.com/thumb/msid-66389302,width-96,height-71/-vs-.jpg?imgsize=63804">
+									</a>
+									<div class="media-body">
+										<div class="heading-elements noabsolute">
+											<ul class="icons-list timestamp">
+												<li><i class="icon-watch2"></i></li>
+												<li>28 अक्टूबर 2018</li>
+											</ul>
+										</div>
+										<a href="#" class="media-heading text-semibold mt10-">T-20 से आउटः ....तो क्या खत्म हो गया है धोनी का खेल?</a>
+									</div>
+								</li>
+								<li class="media">
+									<a href="#" class="media-left">
+										<img class="img-xlg img-square" src="https://static.langimg.com/thumb/msid-66389302,width-96,height-71/-vs-.jpg?imgsize=63804">
+									</a>
+									<div class="media-body">
+										<div class="heading-elements noabsolute">
+											<ul class="icons-list timestamp">
+												<li><i class="icon-watch2"></i></li>
+												<li>28 अक्टूबर 2018</li>
+											</ul>
+										</div>
+										<a href="#" class="media-heading text-semibold mt10-">IND vs WI: धोनी के इस कैच को देखकर कहेंगे, वाह!</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- /Sports -->
+
+
+					<!-- Completeness stats -->
+					<div class="sidebar-category mt-15">
+
+							<div class="category-content">
+								<img class="img-fluid" style="width:100%" src="../assets/images/news/sidebar_ad.png" alt="">
+							</div>
+						</div>
+						<!-- /completeness stats -->
+
+
+					<!-- Revisions -->
+					<div class="sidebar-category">
+						<div class="category-title">
+							<span>धर्म-ज्योतिष </span>
+						</div>
+
+						<div class="category-content">
+							<div class="tabbable pb-20">
+								<ul class="nav nav-tabs nav-tabs-solid nav-justified">
+									<li class="active"><a href="#bottom-justified-divided-tab1" data-toggle="tab">दैनिक</a></li>
+									<li><a href="#bottom-justified-divided-tab2" data-toggle="tab">साप्ताहिक</a></li>
+									<li><a href="#bottom-justified-divided-tab3" data-toggle="tab">मासिक</a></li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" id="bottom-justified-divided-tab1">
+										<a href="#">मेष राशिफल 27 अक्टूबर 2018: वाणी पर संयम रखें</a>
+										<p class="mt-15">आज के दिन अपने निजी विचारों को छोडकर अन्यों के विचारों को अपनाने की गणेशजी आपको सलाह देते हैं। घर क...</p>
+										<p class="mt-5"><a href="#" class="pull-right">विस्तार से पढ़ें...</a></p>
+									</div>
+
+									<div class="tab-pane" id="bottom-justified-divided-tab2">
+											<a href="#">मेष साप्‍ताहिक राशिफल (29 अक्टूबर से 4 नवंबर): स्वास्थ्य में सुधार होगा</a>
+											<p class="mt-15">सप्‍ताह की शुरुआत में कार्यक्षेत्र में माहौल कुछ गरम हो सकता है। धंधे-व्यापार में अटके हुए कार्य पू...</p>
+											<p class="mt-5"><a href="#" class="pull-right">विस्तार से पढ़ें...</a></p>
+									</div>
+
+									<div class="tab-pane" id="bottom-justified-divided-tab3">
+											<a href="#">मेष मासिक राशिफल अक्टूबर 2018: मान-प्रतिष्ठा में वृद्धि होगी</a>
+											<p class="mt-15">माता-पिता के साथ संबंधों में सुधार होगा। पढ़ाई में बढ़िया प्रगति होगी। उच्च अध्ययन के लिए विदेश गमन...</p>
+											<p class="mt-5"><a href="#" class="pull-right">विस्तार से पढ़ें...</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /revisions -->
+
+				</div>
+			</div>
+			<!-- /main sidebar -->
+
+
+			<!-- Main content -->
+			<div class="content-wrapper">
+
+				<!-- Traffic sources -->
+				<div class="panel panel-flat">
+					<div class="container-fluid">
+						<div class="row mt-10">
+							<div class="col-md-7">
+								
+								<div class="category-title">
+									<span>ताज़ा खबरें</span>
+								</div>
+
+								<ul class="media-list media-center font16 mt-15">
+									<li class="media">
+										<a href="#" class="media-left">
+											<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/04/13/108x108/day-4-of-haryana-roadways-strike_1492062439.jpeg">
+										</a>
+										<div class="media-body">
+											<div class="heading-elements noabsolute">
+												<ul class="icons-list timestamp">
+													<li>28 अक्टूबर 2018</li>
+												</ul>
+											</div>
+											<a href="#" class="media-heading text-semibold mt10-">हड़तालः पांच नेताओं की गिरफ्तारी के बाद और बिगड़ सकते हालत, कर्मचारियों ने किया आर-पार का एलान</a>
+										</div>
+									</li>
+									<li class="media">
+										<a href="#" class="media-left">
+											<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/05/28/108x108/mann-ki-baat_1495951245.jpeg">
+										</a>
+										<div class="media-body">
+											<div class="heading-elements noabsolute">
+												<ul class="icons-list timestamp">
+													<li>28 अक्टूबर 2018</li>
+												</ul>
+											</div>
+											<a href="#" class="media-heading text-semibold mt10-"> पीएम मोदी आज 49वीं बार 'मन की बात' के जरिए देश को करेंगे संबोधित</a>
+										</div>
+									</li>
+									<li class="media">
+										<a href="#" class="media-left">
+											<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/04/13/108x108/day-4-of-haryana-roadways-strike_1492062439.jpeg">
+										</a>
+										<div class="media-body">
+											<div class="heading-elements noabsolute">
+												<ul class="icons-list timestamp">
+													<li>28 अक्टूबर 2018</li>
+												</ul>
+											</div>
+											<a href="#" class="media-heading text-semibold mt10-">हड़तालः पांच नेताओं की गिरफ्तारी के बाद और बिगड़ सकते हालत, कर्मचारियों ने किया आर-पार का एलान</a>
+										</div>
+									</li>
+									<li class="media">
+										<a href="#" class="media-left">
+											<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/05/28/108x108/mann-ki-baat_1495951245.jpeg">
+										</a>
+										<div class="media-body">
+											<div class="heading-elements noabsolute">
+												<ul class="icons-list timestamp">
+													<li>28 अक्टूबर 2018</li>
+												</ul>
+											</div>
+											<a href="#" class="media-heading text-semibold mt10-"> पीएम मोदी आज 49वीं बार 'मन की बात' के जरिए देश को करेंगे संबोधित</a>
+										</div>
+									</li>
+									<li class="media">
+										<a href="#" class="media-left">
+											<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/04/13/108x108/day-4-of-haryana-roadways-strike_1492062439.jpeg">
+										</a>
+										<div class="media-body">
+											<div class="heading-elements noabsolute">
+												<ul class="icons-list timestamp">
+													<li>28 अक्टूबर 2018</li>
+												</ul>
+											</div>
+											<a href="#" class="media-heading text-semibold mt10-">हड़तालः पांच नेताओं की गिरफ्तारी के बाद और बिगड़ सकते हालत, कर्मचारियों ने किया आर-पार का एलान</a>
+										</div>
+									</li>
+									<li class="media">
+										<a href="#" class="media-left">
+											<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/05/28/108x108/mann-ki-baat_1495951245.jpeg">
+										</a>
+										<div class="media-body">
+											<div class="heading-elements noabsolute">
+												<ul class="icons-list timestamp">
+													<li>28 अक्टूबर 2018</li>
+												</ul>
+											</div>
+											<a href="#" class="media-heading text-semibold mt10-"> पीएम मोदी आज 49वीं बार 'मन की बात' के जरिए देश को करेंगे संबोधित</a>
+										</div>
+									</li>
+									<li class="media">
+										<a href="#" class="media-left">
+											<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/04/13/108x108/day-4-of-haryana-roadways-strike_1492062439.jpeg">
+										</a>
+										<div class="media-body">
+											<div class="heading-elements noabsolute">
+												<ul class="icons-list timestamp">
+													<li>28 अक्टूबर 2018</li>
+												</ul>
+											</div>
+											<a href="#" class="media-heading text-semibold mt10-">हड़तालः पांच नेताओं की गिरफ्तारी के बाद और बिगड़ सकते हालत, कर्मचारियों ने किया आर-पार का एलान</a>
+										</div>
+									</li>
+									<li class="media">
+										<a href="#" class="media-left">
+											<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/05/28/108x108/mann-ki-baat_1495951245.jpeg">
+										</a>
+										<div class="media-body">
+											<div class="heading-elements noabsolute">
+												<ul class="icons-list timestamp">
+													<li>28 अक्टूबर 2018</li>
+												</ul>
+											</div>
+											<a href="#" class="media-heading text-semibold mt10-"> पीएम मोदी आज 49वीं बार 'मन की बात' के जरिए देश को करेंगे संबोधित</a>
+										</div>
+									</li>
+								</ul>
+								<!--  -->
+							</div>
+							<div class="col-md-5">
+								<p><img class="w100" src="../assets/images/news/sidebar_ad2.png" alt=""/></p>
+
+								<!-- Sports -->
+								<div class="sidebar-category sidebarright hidden-sm hidden-xs">
+									<div class="category-title">
+										<span>खेल</span>
+									</div>
+			
+									<div class="category-content">
+										<ul class="media-list font14">
+											<li class="media">
+												<a href="#" class="media-left">
+													<img class="img-xlg img-square" src="https://static.langimg.com/thumb/msid-66389302,width-96,height-71/-vs-.jpg?imgsize=63804">
+												</a>
+												<div class="media-body">
+													<div class="heading-elements noabsolute">
+														<ul class="icons-list timestamp">
+															<li><i class="icon-watch2"></i></li>
+															<li>28 अक्टूबर 2018</li>
+														</ul>
+													</div>
+													<a href="#" class="media-heading text-semibold mt10-">भारत vs वेस्ट इंडीज: तीसरा वनडे @पुणे, लाइव अपडेट्स</a>
+												</div>
+											</li>
+											<li class="media">
+												<a href="#" class="media-left">
+													<img class="img-xlg img-square" src="https://static.langimg.com/thumb/msid-66389302,width-96,height-71/-vs-.jpg?imgsize=63804">
+												</a>
+												<div class="media-body">
+													<div class="heading-elements noabsolute">
+														<ul class="icons-list timestamp">
+															<li><i class="icon-watch2"></i></li>
+															<li>28 अक्टूबर 2018</li>
+														</ul>
+													</div>
+													<a href="#" class="media-heading text-semibold mt10-">LIVE: विंडीज ने भारत को दिया 284 रन का लक्ष्य</a>
+												</div>
+											</li>
+											<li class="media">
+												<a href="#" class="media-left">
+													<img class="img-xlg img-square" src="https://static.langimg.com/thumb/msid-66389302,width-96,height-71/-vs-.jpg?imgsize=63804">
+												</a>
+												<div class="media-body">
+													<div class="heading-elements noabsolute">
+														<ul class="icons-list timestamp">
+															<li><i class="icon-watch2"></i></li>
+															<li>28 अक्टूबर 2018</li>
+														</ul>
+													</div>
+													<a href="#" class="media-heading text-semibold mt10-">T-20 से आउटः ....तो क्या खत्म हो गया है धोनी का खेल?</a>
+												</div>
+											</li>
+											<li class="media">
+												<a href="#" class="media-left">
+													<img class="img-xlg img-square" src="https://static.langimg.com/thumb/msid-66389302,width-96,height-71/-vs-.jpg?imgsize=63804">
+												</a>
+												<div class="media-body">
+													<div class="heading-elements noabsolute">
+														<ul class="icons-list timestamp">
+															<li><i class="icon-watch2"></i></li>
+															<li>28 अक्टूबर 2018</li>
+														</ul>
+													</div>
+													<a href="#" class="media-heading text-semibold mt10-">IND vs WI: धोनी के इस कैच को देखकर कहेंगे, वाह!</a>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- /Sports -->
+
+
+								<!-- Others -->
+								<div class="sidebar-category hidden-sm hidden-xs">
+									<div class="category-title">
+										<span>फोटो</span>
+									</div>
+			
+									<div class="category-content">
+										<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+											
+											<!-- Wrapper for slides -->
+											<div class="carousel-inner" role="listbox">
+												<div class="item active">
+													<img src="https://static.langimg.com/thumb/msid-66381902,width-140,height-81/66381902.jpg" alt="">
+													<div class="carousel-caption">
+														<h3>करवा चौथ 2018: इन बॉलिवुड ऐक्ट्रेसेस का है पह</h3>
+													</div>
+												</div>
+												<div class="item">
+													<img src="https://static.langimg.com/thumb/msid-66380804,width-140,height-81/66380804.jpg" alt="">
+													<div class="carousel-caption">
+														<h3>करवा चौथ 2018: इन बॉलिवुड ऐक्ट्रेसेस का है पह</h3>
+													</div>
+												</div>
+											</div>
+											
+											<!-- Controls -->
+											<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+												<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- /Others -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /traffic sources -->
+				
+				<div class="panel panel-flat hidden-sm hidden-xs">
+					<div class="container-fluid">
+						<!-- Another -->
+						<div class="category-title">
+							<span>स्पॉटलाइट</span>
+						</div>
+						<div id="carousel-example-generic2" class="carousel slide bottomSlider mt-15" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<div class="row">
+										<div class="col-sm-4">
+											<img src="//spiderimg.amarujala.com/assets/images/2018/09/20/262x177/amit-shah_1537438927.jpeg" alt="">
+											<div class="carousel-caption">
+												छत्तीसगढ़ विधानसभा चुनाव: कांग्रेस ने जारी की 37 उम्मीदवारों की तीसरी सूची
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/262x177/kp-singh_1540661161.jpeg" alt="">
+											<div class="carousel-caption">
+												छत्तीसगढ़ विधानसभा चुनाव: कांग्रेस ने जारी की 37 उम्मीदवारों की तीसरी सूची
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/262x177/demo-pic_1540663314.jpeg" alt="">
+											<div class="carousel-caption">
+												छत्तीसगढ़ विधानसभा चुनाव: कांग्रेस ने जारी की 37 उम्मीदवारों की तीसरी सूची
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row">
+										<div class="col-sm-4">
+											<img src="//spiderimg.amarujala.com/assets/images/2018/09/20/262x177/amit-shah_1537438927.jpeg" alt="">
+											<div class="carousel-caption">
+												छत्तीसगढ़ विधानसभा चुनाव: कांग्रेस ने जारी की 37 उम्मीदवारों की तीसरी सूची
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/262x177/kp-singh_1540661161.jpeg" alt="">
+											<div class="carousel-caption">
+												छत्तीसगढ़ विधानसभा चुनाव: कांग्रेस ने जारी की 37 उम्मीदवारों की तीसरी सूची
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/262x177/demo-pic_1540663314.jpeg" alt="">
+											<div class="carousel-caption">
+												छत्तीसगढ़ विधानसभा चुनाव: कांग्रेस ने जारी की 37 उम्मीदवारों की तीसरी सूची
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- Controls -->
+							<a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!-- Another -->
+						<div class="category-title mt-15 hidden-sm hidden-xs">
+							<span>राजपथ</span>
+						</div>
+						<div class="row mt-15 rajpath">
+							<div class="col-lg-3 col-sm-6">
+								<div class="thumbnail">
+									<div class="thumb">
+										<img src="https://spiderimg.amarujala.com/assets/images/firkee.in/2018/10/27/590x274/comedian-kapil-sharma-wedding_1540641941.jpeg" alt="">
+										<div class="caption-overflow">
+											<span>
+												<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+											</span>
+										</div>
+									</div>
+		
+									<div class="caption mt-15">
+										<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">लो जी... तैयार हो गया कॉमेडियन कपिल शर्मा की शादी का मेन्यू, पढ़िए क्या कुछ है खास</a></h6>
+									</div>
+								</div>
+							</div>
+		
+							<div class="col-lg-3 col-sm-6">
+								<div class="thumbnail">
+									<div class="thumb">
+										<img src="https://spiderimg.amarujala.com/assets/images/firkee.in/2018/10/27/590x274/nax-jax_1540637881.jpeg" alt="">
+										<div class="caption-overflow">
+											<span>
+												<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+											</span>
+										</div>
+									</div>
+		
+									<div class="caption mt-15">
+										<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">WWE रिंग में मिथक तोड़ रही है ये रेसलर, बड़े-बड़े पहलवानों को नाम सुनते ही आने लगता है पसीना</a></h6>
+									</div>
+								</div>
+							</div>
+		
+							<div class="col-lg-3 col-sm-6">
+								<div class="thumbnail">
+									<div class="thumb">
+										<img src="https://spiderimg.amarujala.com/assets/images/firkee.in/2018/10/27/590x274/karwa-chauth_1540624375.jpeg" alt="">
+										<div class="caption-overflow">
+											<span>
+												<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+											</span>
+										</div>
+									</div>
+		
+									<div class="caption mt-15">
+										<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">बॉलीवुड के इन गानों ने करवाचौथ को बना दिया फैशनेबल और फेमस, चेक करें लिस्ट</a></h6>
+									</div>
+								</div>
+							</div>
+		
+							<div class="col-lg-3 col-sm-6">
+								<div class="thumbnail">
+									<div class="thumb">
+										<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/262x177/kp-singh_1540661161.jpeg" alt="">
+										<div class="caption-overflow">
+											<span>
+												<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+											</span>
+										</div>
+									</div>
+		
+									<div class="caption mt-15">
+										<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">बिहार की सीट बंटवारे का असर दूसरे राज्यों में भी, सहयोगियों ने भाजपा से की ज्यादा सीटों की मांग</a></h6>
+									</div>
+								</div>
+							</div>
+						</div>
+		
+						<!-- Another -->
+
+						<!-- Another -->
+						<div class="category-title mt-15 hidden-sm hidden-xs">
+							<span>लाइफस्टाइल</span>
+						</div>
+						<div class="row mt-15 lyfstyle">
+							<div class="col-lg-3 col-sm-6">
+								<div class="thumbnail">
+									<div class="thumb">
+										<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/360x243/hichki-and-love-shayari-hindi_1540645377.jpeg" alt="">
+										<div class="caption-overflow">
+											<span>
+												<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+											</span>
+										</div>
+									</div>
+		
+									<div class="caption mt-15">
+										<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">महबूब की याद में 'हिचकियों' पर ये 10....</a></h6>
+									</div>
+								</div>
+							</div>
+		
+							<div class="col-lg-3 col-sm-6">
+								<div class="thumbnail">
+									<div class="thumb">
+										<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/360x243/tasawwur_1540628547.jpeg" alt="">
+										<div class="caption-overflow">
+											<span>
+												<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+											</span>
+										</div>
+									</div>
+		
+									<div class="caption mt-15">
+										<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">आज का लफ़्ज़- जानें ‘तसव्वुर’ का मतलब...</a></h6>
+									</div>
+								</div>
+							</div>
+		
+							<div class="col-lg-3 col-sm-6">
+								<div class="thumbnail">
+									<div class="thumb">
+										<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/360x243/arsh-malsiani_1540637485.jpeg" alt="">
+										<div class="caption-overflow">
+											<span>
+												<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+											</span>
+										</div>
+									</div>
+		
+									<div class="caption mt-15">
+										<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">अर्श मलसियानी की ग़ज़लों से चुनिंदा शेर</a></h6>
+									</div>
+								</div>
+							</div>
+		
+							<div class="col-lg-3 col-sm-6">
+								<div class="thumbnail">
+									<div class="thumb">
+										<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/360x243/javed-akhtar-shayari-in-hindi_1540649026.jpeg" alt="">
+										<div class="caption-overflow">
+											<span>
+												<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+											</span>
+										</div>
+									</div>
+		
+									<div class="caption mt-15">
+										<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">जावेद अख़्तर: जब आईना कोई देखो...</a></h6>
+									</div>
+								</div>
+							</div>
+						</div>
+		
+						<!-- Another -->
+					</div>
+				</div>
+
+			</div>
+			<!-- /main content -->
+		</div>
+		<!-- /page content --> 
+		<!-- Another -->
+		<div class="container no-padding">
+			<div class="panel panel-flat marginR40">
+				<div class="row no-margin">
+					<div class="col-sm-6">
+						<div class="category-title">
+							<span>ताज़ा खबरें</span>
+						</div>
+
+						<ul class="media-list media-center font16 mt-15">
+							<li class="media">
+								<a href="#" class="media-left">
+									<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/04/13/108x108/day-4-of-haryana-roadways-strike_1492062439.jpeg">
+								</a>
+								<div class="media-body">
+									<div class="heading-elements noabsolute">
+										<ul class="icons-list timestamp">
+											<li>28 अक्टूबर 2018</li>
+										</ul>
+									</div>
+									<a href="#" class="media-heading text-semibold mt10-">हड़तालः पांच नेताओं की गिरफ्तारी के बाद और बिगड़ सकते हालत, कर्मचारियों ने किया आर-पार का एलान</a>
+								</div>
+							</li>
+							<li class="media">
+								<a href="#" class="media-left">
+									<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/05/28/108x108/mann-ki-baat_1495951245.jpeg">
+								</a>
+								<div class="media-body">
+									<div class="heading-elements noabsolute">
+										<ul class="icons-list timestamp">
+											<li>28 अक्टूबर 2018</li>
+										</ul>
+									</div>
+									<a href="#" class="media-heading text-semibold mt10-"> पीएम मोदी आज 49वीं बार 'मन की बात' के जरिए देश को करेंगे संबोधित</a>
+								</div>
+							</li>
+							<li class="media">
+								<a href="#" class="media-left">
+									<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/04/13/108x108/day-4-of-haryana-roadways-strike_1492062439.jpeg">
+								</a>
+								<div class="media-body">
+									<div class="heading-elements noabsolute">
+										<ul class="icons-list timestamp">
+											<li>28 अक्टूबर 2018</li>
+										</ul>
+									</div>
+									<a href="#" class="media-heading text-semibold mt10-">हड़तालः पांच नेताओं की गिरफ्तारी के बाद और बिगड़ सकते हालत, कर्मचारियों ने किया आर-पार का एलान</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-sm-6">
+						<div class="category-title">
+							<span>ताज़ा खबरें</span>
+						</div>
+
+						<ul class="media-list media-center font16 mt-15">
+							<li class="media">
+								<a href="#" class="media-left">
+									<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/04/13/108x108/day-4-of-haryana-roadways-strike_1492062439.jpeg">
+								</a>
+								<div class="media-body">
+									<div class="heading-elements noabsolute">
+										<ul class="icons-list timestamp">
+											<li>28 अक्टूबर 2018</li>
+										</ul>
+									</div>
+									<a href="#" class="media-heading text-semibold mt10-">हड़तालः पांच नेताओं की गिरफ्तारी के बाद और बिगड़ सकते हालत, कर्मचारियों ने किया आर-पार का एलान</a>
+								</div>
+							</li>
+							<li class="media">
+								<a href="#" class="media-left">
+									<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/05/28/108x108/mann-ki-baat_1495951245.jpeg">
+								</a>
+								<div class="media-body">
+									<div class="heading-elements noabsolute">
+										<ul class="icons-list timestamp">
+											<li>28 अक्टूबर 2018</li>
+										</ul>
+									</div>
+									<a href="#" class="media-heading text-semibold mt10-"> पीएम मोदी आज 49वीं बार 'मन की बात' के जरिए देश को करेंगे संबोधित</a>
+								</div>
+							</li>
+							<li class="media">
+								<a href="#" class="media-left">
+									<img class="img-xxlg img-square" src="//spiderimg.amarujala.com/assets/images/2017/04/13/108x108/day-4-of-haryana-roadways-strike_1492062439.jpeg">
+								</a>
+								<div class="media-body">
+									<div class="heading-elements noabsolute">
+										<ul class="icons-list timestamp">
+											<li>28 अक्टूबर 2018</li>
+										</ul>
+									</div>
+									<a href="#" class="media-heading text-semibold mt10-">हड़तालः पांच नेताओं की गिरफ्तारी के बाद और बिगड़ सकते हालत, कर्मचारियों ने किया आर-पार का एलान</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Another -->
+
+		<!-- Another -->
+		<div class="container no-padding">
+			<div class="panel panel-flat marginR40">
+				<div class="category-title mt-15">
+					<span>राजपथ</span>
+				</div>
+				<div class="row no-margin mt-15 rajpath">
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<div class="thumb">
+								<img src="https://spiderimg.amarujala.com/assets/images/firkee.in/2018/10/27/590x274/comedian-kapil-sharma-wedding_1540641941.jpeg" alt="">
+								<div class="caption-overflow">
+									<span>
+										<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+									</span>
+								</div>
+							</div>
+
+							<div class="caption mt-15">
+								<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">लो जी... तैयार हो गया कॉमेडियन कपिल शर्मा की शादी का मेन्यू, पढ़िए क्या कुछ है खास</a></h6>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<div class="thumb">
+								<img src="https://spiderimg.amarujala.com/assets/images/firkee.in/2018/10/27/590x274/nax-jax_1540637881.jpeg" alt="">
+								<div class="caption-overflow">
+									<span>
+										<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+									</span>
+								</div>
+							</div>
+
+							<div class="caption mt-15">
+								<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">WWE रिंग में मिथक तोड़ रही है ये रेसलर, बड़े-बड़े पहलवानों को नाम सुनते...</a></h6>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<div class="thumb">
+								<img src="https://spiderimg.amarujala.com/assets/images/firkee.in/2018/10/27/590x274/karwa-chauth_1540624375.jpeg" alt="">
+								<div class="caption-overflow">
+									<span>
+										<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+									</span>
+								</div>
+							</div>
+
+							<div class="caption mt-15">
+								<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">बॉलीवुड के इन गानों ने करवाचौथ को बना दिया फैशनेबल और फेमस, चेक करें लिस्ट</a></h6>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<div class="thumb">
+								<img src="//spiderimg.amarujala.com/assets/images/2018/10/27/262x177/kp-singh_1540661161.jpeg" alt="">
+								<div class="caption-overflow">
+									<span>
+										<a href="#" class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i class="icon-link2"></i></a>
+									</span>
+								</div>
+							</div>
+
+							<div class="caption mt-15">
+								<h6 class="no-margin-top text-semibold"><a href="#" class="text-default">बिहार की सीट बंटवारे का असर दूसरे राज्यों में भी, सहयोगियों ने भाजपा से की ज्यादा...</a></h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Another -->
+		<!-- Footer -->
+		<div class="container no-padding foo">
+			<div class="panel panel-flat marginR40">
+
+				<section class="p-15 m-15 pb-0 mb-0">
+					<div class="row">
+						<div class="col-xs-6 col-sm-4 col-md-2">
+							<ul class="noliststyle foo-links">
+								<li class="bold pb-5">News From Indian States</li>
+								<li><a href="/uttar-pradesh" title="Uttar Pradesh">Uttar Pradesh News</a></li>
+								<li><a href="/himachal-pradesh" title="Himachal Pradesh">Himachal Pradesh News</a></li>
+								<li><a href="/uttarakhand" title="Uttarakhand">Uttarakhand News</a></li>
+								<li><a href="/haryana" title="Haryana">Haryana News</a></li>
+								<li><a href="/jammu-and-kashmir" title="Jammu And Kashmir">Jammu And Kashmir News</a></li>
+								<li><a href="/bihar" title="Bihar">Bihar News</a></li>
+								<li><a href="/rajasthan" title="Rajasthan">Rajasthan News</a></li>
+								<li><a href="/jharkhand" title="Jharkhand">Jharkhand News</a></li>
+								<li><a href="/chhattisgarh" title="Chhattisgarh">Chhattisgarh News</a></li>
+								<li><a href="/delhi" title="Delhi">Delhi News</a></li>
+								<li><a href="/gujarat" title="Gujarat">Gujarat News</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2">
+							<ul class="noliststyle foo-links">
+								<li class="bold pb-5">Sports News</li>
+								<li><a href="/cricket" title="Cricket">Cricket News</a></li>
+								<li><a href="/cricket/cricket-scorecards" title="Cricket Live Score">Live Cricket Score</a></li>
+								<li><a href="/sports/hockey" title="Hockey">Hockey</a></li>
+								<li><a href="/sports/tennis" title="Tennis">Tennis</a></li>
+								<li><a href="/sports/football" title="Football">Football</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2">
+							<ul class="noliststyle foo-links">
+								<li class="bold pb-5">Lifestyle</li>
+								<li><a href="/lifestyle/yoga-and-health" title="Health">Health News</a></li>
+								<li><a href="/lifestyle/fitness" title="Fitness">Fitness News</a></li>
+								<li><a href="/fashion" title="Fitness">Fashion News</a></li>
+								<li><a href="/spirituality" title="Spirituality">Spirituality</a></li>
+								<li><a href="/astrology" title="Astrology">Astrology</a></li>
+								<li><a href="/astrology/horoscope/daily-horoscope" title="Daily Horoscope">Daily Horoscope</a></li>
+								<li><a href="/astrology/predictions" title="Astrology Predictions">Astrology Predictions</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2">
+							<ul class="noliststyle foo-links">
+								<li class="bold pb-5">Entertainment News</li>
+								<li><a href="/entertainment/bollywood" title="Bollywood">Bollywood News</a></li>
+								<li><a href="/entertainment/television" title="TV Serials">TV Serials</a></li>
+								<li><a href="/entertainment/hollywood" title="Hollywood">Hollywood News</a></li>
+								<li><a href="/entertainment/movie-review" title="Movie Reviews">Movie Reviews</a></li>
+								<li><a href="/photo-gallery" title="Photo Gallery">Photo Gallery</a></li>
+								<li><a href="/video" title="Videos">Videos</a></li>
+								<li><a href="/kavya" title="Shayari">Shayari</a></li>
+								<li><a href="/humour/jokes" title="Hindi Jokes"> Hindi Jokes</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2">
+							<ul class="noliststyle foo-links">
+								<li class="bold pb-5">Latest News</li>
+								<li><a href="/technology" title="Technology News">Technology News</a></li>
+								<li><a href="/automobiles" title="Auto News">Auto News</a></li>
+								<li><a href="/automobiles/car-review" title="Car Reviews">Car Reviews</a></li>
+								<li><a href="/technology/mobile-apps" title="Mobile Apps">Mobile Apps</a></li>
+								<li><a href="/technology/gadgets" title="Gadgets">Gadgets</a></li>
+								<li><a href="/jobs/government-jobs" title="Sarkari Naukri">Sarkari Naukri</a></li>
+								<li><a href="/education/career-plus" title="Career Plus">Career Plus</a></li>
+								<li><a href="/education" title="Education">Education</a></li>
+								<li><a href="/business" title="Business">Business News</a></li>
+								<li><a href="/world/china" title="China">China News</a></li>
+								<li><a href="/world" title="World">World News</a></li>
+								<li><a href="/world/europe" title="Europe">Europe News</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-2">
+							<a href="#"><img src="./assets/images/news/ePaper.png" alt=""></a>
+						</div>
+					</div>
+					<!-- Another -->
+					<div class="row">
+						<div class="col-xs-12 readlatest font14">
+							Read the latest and breaking Hindi news on khabarhimachal.com. Get live Hindi news about India and the World from politics, sports, bollywood, business, cities, lifestyle, astrology, spirituality, jobs and much more. Register with khabarhimachal.com to get all the latest Hindi news updates as they happen.
+						</div>
+					</div>
+					<div class="row pt-15 mt-10 pb-15 mb-10">
+						<div class="col-md-6 social pt-10">
+							Follow Us
+							<a href="#"><i class="icon-facebook2"></i></a>
+							<a href="#"><i class="icon-twitter2"></i></a>
+							<a href="#"><i class="icon-google-plus2"></i></a>
+							<a href="#"><i class="icon-youtube"></i></a>
+							<a href="#"><i class="icon-instagram"></i></a>
+						</div>
+						<div class="col-md-6">
+							<form class="form-inline pull-right">
+								<div class="form-group">
+									<label class="sr-only" for="enteremail">Enter Your Email</label>
+									<div class="input-group">
+									<div class="input-group-addon"><i class="icon-envelop5 red"></i></div>
+									<input type="text" class="form-control" id="enteremail" placeholder="Enter Your Email">
+									</div>
+								</div>
+								<button type="submit" class="btn btn-danger">Subscribe</button>
+							</form>
+						</div>
+					</div>
+					<div class="row">
+						<div>
+							<ul class="noliststyle foo-linksadd">
+								<li><a href="/about-us" class="wht" title="About Us" rel="noopener">About Us</a>|</li>
+								<li><a href="/advertise-with-us" class="wht" title="Advertise with us" rel="noopener">Advertise with us</a>|</li>
+								<li><a href="/careers" class="wht" title="Careers" rel="noopener">Careers</a>|</li>
+								<li><a href="/privacy-policy" class="wht" title="Privacy" rel="noopener">Privacy</a>|</li>
+								<li><a href="/cookies-policy" class="wht" title="Cookies Policy" rel="noopener">Cookies Policy</a>|</li>
+								<li><a href="/contact-us" class="wht" title="Contact Us" rel="noopener">Contact Us</a>|</li>
+								<li><a href="/terms-and-conditions" class="wht" title="Terms and Conditions" rel="noopener">Terms and Conditions</a>|</li>
+								<li><a href="/rss" class="wht" title="RSS Feeds" rel="noopener">RSS Feeds</a>|</li>
+								<li><a href="/sitemap.html" class="wht" title="Sitemap" rel="noopener">Sitemap</a>|</li>
+								<li><a class="wht delete-all-cookie" href="" title="Delete All Cookies" rel="noopener">Delete All Cookies</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<div class="navbar navbar-default navbar-sm clearfix">
+					<ul class="nav navbar-nav no-border visible-xs-block">
+						<li><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-second"><i class="icon-circle-up2"></i></a></li>
+					</ul>
+			
+					<div class="navbar-collapse collapse" id="navbar-second">
+						<div class="navbar-text ml-15">
+							&copy; 2018. <a href="#">khabarhimachal.com</a> by <a href="http://khabarhimachal.com" target="_blank">khabarhimachal</a>
+						</div>
+			
+						<div class="navbar-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#">Help center</a></li>
+								<li><a href="#">Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- /footer -->
+	</div>
+	<!-- /page container -->
+
+</body>
+</html>
