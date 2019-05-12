@@ -129,11 +129,19 @@ a:hover { text-decoration: underline; }
 }
 
 @media (max-width: 1023px) { 
-    .header-ads { display: none; }
+    .header-ads { max-width: 50%; height: 75px; overflow: hidden; }
+    .header-ads img { height: 100%; }
 }
 
 @media (max-width: 769px) {
     .navbar-default .navbar-nav > li > a[data-toggle="collapse"] { text-align: right; }
-    .page-title .logo { margin-left: 50%; left: -120px; position: relative;}
+    .page-title .logo {  position: relative; margin-left: 0; max-width: 150px; margin-top: 4px; }
     .sidebar { display: block !important }
+    /* Changes 2019/05/12 */
+    .navbar-inverse .navbar-collapse { position: absolute; z-index: 111; width: 100%; background-color: #37474F; border-color: #37474F; }
+    .nav.visible-xs-block > li { display: inline-block; }
+    .nav.visible-xs-block > li.right-search { float: right; margin-right: 10px; margin-top: -1px; }
+    .xs-marginR0 { margin-right: 0 !important; }
+    .page-header { min-height: 75px; }
+    .header-ads { margin-top: -23px; height: 56px; display: block; }
 }
